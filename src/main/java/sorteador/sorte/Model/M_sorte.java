@@ -1,10 +1,10 @@
 package sorteador.sorte.Model;
 
 public class M_sorte {
-    private  int qtdNum;
-    private  int numMin;
-    private  int numMax;
-    private  int[] resultado;
+    private int qtdNum;
+    private int numMin;
+    private int numMax;
+    private int[] resultado;
 
     public M_sorte(int[] resultado) {
         this.resultado = resultado;

@@ -9,7 +9,7 @@ public class S_sorte {
                                   int numMax) {
         int[] resultado = new int[qtdNum];
         for (int i = 0; i < qtdNum; i++) {
-            resultado[i] = (int) Math.floor(Math.random() * (numMax - numMin) + numMin);
+            resultado[i] = (int) Math.floor(Math.random() * ((numMax + 1) - numMin) + numMin);
         }
         M_sorte m_sorte = new M_sorte(resultado);
 

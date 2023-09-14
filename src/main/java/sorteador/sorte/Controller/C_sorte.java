@@ -18,7 +18,6 @@ public class C_sorte {
     }
 
     @PostMapping("/")
-    @ResponseBody
     public String postIndex(@RequestParam("qtdNum") int qtdNum,
                             @RequestParam("numMin") int numMin, @RequestParam("numMax") int numMax, Model model) {
         M_sorte sorteio = S_sorte.Sortear(qtdNum, numMin, numMax);
